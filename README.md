@@ -33,3 +33,13 @@ found 1 low severity vulnerability
 ```
 var BoxSDK = require('box-node-sdk');
 ```
+
+呼び出しに失敗したときは、以下のエラーが表示されます。  
+```
+node auth.js
+internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'box-node-sdk'
+```
