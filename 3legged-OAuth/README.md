@@ -20,14 +20,14 @@ npm install --save express
 npm install --save querystring
 ```
 
-# 3. コンフィルファイルの作成
+# 3. コンフィグファイルの作成
 
 認証情報(Client ID, Client Secret)を記載したコンフィグファイルを用意
 
 - ファイル形式はJson
-- ファイル名は「oauth_config.json」とする
-- 誤ってコミットに認証情報を含めないよう、リポジトリの外のディレクトリに保存
-  例./Users/ユーザ名/keys/oauth_config.json
+- ファイル名は「oauth_config.json」で固定
+- 誤ってコミットに認証情報を含めないよう、リポジトリの外のディレクトリに保存すること  
+  例. /Users/ユーザ名/keys/oauth_config.json
 
 **oauth_config.json**
 ```
