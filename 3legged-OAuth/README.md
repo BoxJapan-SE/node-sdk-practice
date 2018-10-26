@@ -3,7 +3,7 @@
 Node.jsとBox SDKを使った、OAuth 3legged認証のサンプルスクリプト。  
 
 ## 参考
-(Box Community - working-with-oauth-node_JA)[https://cloud.app.box.com/s/sq9xbtkw5bjmd9e7jr615poqc5nujgh8]
+[working-with-oauth-node_JA](https://cloud.app.box.com/s/sq9xbtkw5bjmd9e7jr615poqc5nujgh8)
 
 # 1. リポジトリをクローン
 
