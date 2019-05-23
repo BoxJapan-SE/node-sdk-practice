@@ -2,11 +2,12 @@
 
 // Initialize packages
 const app = require('express')();               //Webフレームワーク"Express"
-const appConfig = require('/Users/hkusaka/keys/oauth_config.json');  //コンフィグファイルを読み込み
+const appConfig = require('/Users/hkusaka/conf/oauth_config.json');  //コンフィグファイルを読み込み
 const boxSDK = require('box-node-sdk');          //Box Node SDK
 const fs = require('fs');                       //ファイル操作のためfsを読み込み
 const http = require('http');                  //HTTPサーバ
-const querystring = require('querystring')      //クエリ文字列操作のためquerystring
+const querystring = require('querystring');      //クエリ文字列操作のためquerystring
+const filePath = '/Users/hkusaka/Desktop/taxdoc.txt'; //テストアップロード用のファイルパス
 
 const sdk = new boxSDK({
     clientID: appConfig.oauthClientId,
@@ -40,9 +41,6 @@ app.get('/start', function(req, res) {
 });
 
 app.get('/return', function(req, res){
-    // アップロードするファイルのパス
-    const filePath = '/Users/hkusaka/Desktop/taxdoc.txt';
-
     // リクエストのクエリ文字列から、codeを抽出
     const code = req.query.code;
 

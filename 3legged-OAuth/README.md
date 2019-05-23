@@ -37,10 +37,11 @@ npm install --save querystring
 }
 ```
 
-# 4. コード中のコンフィルファイルのパスを書き換え
+# 4. コード中のファイルのパスを自環境に書き換え
 
 oauth.js 5行目のコンフィグファイルのパスを自環境のものに書き換える。
 
+5行目 コンフィグファイルのパス
 ```
 const appConfig = require('絶対パスで保存先を指定/oauth_config.json');  
 ```
