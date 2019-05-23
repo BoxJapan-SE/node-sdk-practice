@@ -69,26 +69,31 @@ Server started: Listening on port 3000
 ブラウザのシークレットウインドウを開き、  
 `http://localhost:3000/start` にアクセスする。  
 
-![ブラウザにアクセス](https://cloud.box.com/shared/static/arvuggjev2pryr6dw43iftt5tnp5fclp.png)
+![ブラウザにアクセス](./CapturFiles_1.png)  
 
 ## 5-3. Boxにログイン
 
 `account.box.com`にリダイレクトされるので、ユーザ名、パスワードを入力してログインする。  
 
-![Boxにログイン](https://cloud.box.com/shared/static/8ozh87bxjiws1ilp3hbp8y3w1r5hiwhq.png)
+![Boxにログイン](./CapturFiles_2.png)  
 
 ## 5-4. アプリケーションの認可
 
 このアプリケーションに許される権限の一覧が表示される。  
 `Boxへのアクセスを許可`ボタンをクリックする。  
 
-![アプリケーションの認可](https://cloud.box.com/shared/static/f164qsy3m9xzq4rl7uytr9drq79pnyjk.png)
+![アプリケーションの認可](./CapturFiles_3.png)  
 
 手順5-1.でNodeアプリを起動したコンソールに戻り、ファイルアップロードのPOSTリクエストが発行されたことを確認する。  
 
+![リクエスト発行の確認](./CapturFiles_5.png)  
 
 ## 5-5. Box WebUIで確認
 
 Boxのトップページにファイルがアップロードされたことを確認する。  
 
-![ファイルのアップロード確認](https://cloud.box.com/shared/static/ai35f00hp46n7kuombiw1vbqxcyfno8l.png)
+![ファイルのアップロード確認](./CapturFiles_4.png)  
+
+コンソールで`Ctrl + c`を押下し、Nodeアプリケーションを停止する。  
+
+以上
