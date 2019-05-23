@@ -20,6 +20,26 @@ Node.jsとBox SDKを使った、OAuth 3legged認証のサンプルスクリプ�
 
 ---
 
+# 事前準備
+
+Boxの開発者コンソールにて、以下の内容でBoxアプリケーションを作成します。
+
+* 認証方法: 標準OAuth2.0(ユーザ認証)
+
+![アプリ設定](./images/Capture_3.png)
+
+
+
+* OAuth2.0リダイレクトURI : http://localhost
+
+![アプリ設定](./images/Capture_2.png)
+
+* アプリケーションスコープ : 「Boxに格納されている全てのファイルとフォルダの読み取りと書き込み」にチェックを入れる
+
+![アプリ設定](./images/Capture_4.png)  
+
+
+
 
 
 # 1. リポジトリをクローン
