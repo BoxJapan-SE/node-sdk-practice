@@ -2,7 +2,7 @@
 
 Node.jsとBox SDKを使った、OAuth 3legged認証のサンプルスクリプト。  
 
-コードの内容は以下のトレーニング資料内「レッスン6: JWT Application - Node」を参考としています。
+コードの内容は以下のトレーニング資料内「![レッスン5: OAuth 2.0 Application - Node](https://cloud.box.com/s/sq9xbtkw5bjmd9e7jr615poqc5nujgh8)」を参考としています。
 
 [Box Developerトレーニング: レベル2 - 認証とアカウントの種類について学ぶ](https://community.box.com/t5/ゼロから始めるBox-API/Box-Developerトレーニング-レベル2-認証とアカウントの種類について学ぶ/ta-p/58111)
 
