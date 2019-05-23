@@ -14,12 +14,6 @@ const sdk = new boxSDK({
     clientSecret: appConfig.oauthClientSecret
 });
 
-/*
-app.get('/authenticate', function (req, res) {
-    res.redirect('https://account.box.com/api/oauth2/authorize?response_type=code&client_id={your client id}&redirect_uri=http://localhost:3000/oauth&state={your client secret}')
-})
-*/
-
 app.get('/start', function(req, res) {
     // エンドポイント
     const authURI = 'https://account.box.com/api/oauth2/authorize';
